@@ -28,7 +28,7 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     email = models.EmailField(_("email address"), unique=True)
     profile = models.CharField(
-        max_length = 2,
+        max_length = 12,
         choices = PROFILE_TYPE_CHOICES,
         default=USER,
         help_text = 'User profile type',
