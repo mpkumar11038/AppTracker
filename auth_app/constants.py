@@ -1,0 +1,5 @@
+JUDGE = "Judge"
+STAFF = "Staff"
+ADMIN = "Admin"
+ESTAFF = "EscaleStaff"
+USER = "User"
